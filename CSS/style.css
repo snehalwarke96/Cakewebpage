@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&family=Lato&family=Libre+Baskerville&family=Roboto:wght@300&family=Signika+Negative&family=Tapestry&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    background-color: black;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.logo {
+    width: 50px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(188, 92, 92);
+    position: sticky;
+    top: 0px;
+
+}
+
+.item {
+    display: flex;
+    margin-right: 130px;
+
+}
+
+.item li {
+    list-style: none;
+
+}
+
+.item li a {
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+    font-size: 23px;
+}
+
+.item li a :hover {
+
+    cursor: pointer;
+
+
+}
+
+.bkImg {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    /* margin-top: -100px; */
+    z-index: -1;
+    opacity: 0.4;
+    /* image-resolution:1600x800; */
+
+}
+
+.hmCont {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    /* border: 2px solid; */
+    /* flex-wrap:wrap; */
+
+    width: auto;
+    height: 400px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 20px;
+    margin: 0px 25px;
+
+
+
+}
+
+#home {
+    align-items: center;
+    height: auto;
+}
+
+.h-one {
+
+    font-size: 50px;
+    margin: 10px 0px;
+    justify-content: center;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: plum;
+    margin: 10px 0px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: palevioletred;
+
+}
+
+#services {
+    background-color: white;
+    text-align: center;
+    margin-top: 500px;
+    padding: 50px 30px;
+    height: auto;
+}
+
+.box img {
+    /* display: block; */
+    margin: 25px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    /* display: inline; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+
+    /* padding: 12px; */
+    margin: 12px;
+    width: 400px;
+    height: 480px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+
+
+}
+
+.servbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    text-align: justify;
+
+}
+
+.h-two {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.box p {
+    padding: 0px 10px;
+}
+
+.container {
+    display: flex;
+    margin: 30px 0px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    align-items: flex-start;
+
+}
+
+.container img {
+    width: 400px;
+    height: 400px;
+}
+
+#aboutus {
+    background-color: white;
+    margin-top: -10px;
+    padding: 50px;
+    text-align: center;
+}
+
+#contactus {
+    position: relative;
+    width: 100vw;
+}
+
+.cont {
+    text-align: justify;
+    padding: 20px;
+}
+
+#contactus {
+    /* background-color: white; */
+    margin-top: -10px;
+
+}
+
+#contactus h1 {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+
+.conImg {
+    width: 100vw;
+    height: 30vw;
+    position: absolute;
+    margin-top: -10px;
+    z-index: -1;
+    opacity: 0.4;
+
+} 
+
+
+.fm label {
+
+    font-size: 25px;
+    margin: 5px;
+    padding: 2px;
+    font-weight: 700;
+    color: white;
+}
+
+.fm input {
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+.contactdiv {
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div.end{
+   
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+   padding: 5px;
+    text-align: center;
+    /* margin-top: 140px; 
+    
+} */
+
+/* footer{
+    background-color: black;
+    border: 2px solid black;
+    height: 22px;
+    color: white;
+    position: relative;
+    bottom: -10vh;
+    text-align: center;
+    margin-top: 10px;
+} */
+
+
+
+@media only screen and (max-width: 1213px) {
+    #services {
+
+        margin-top: 200px;
+
+
+    }
+    .conImg {
+      
+        height: 40vw;
+      }
+
+
+}
+
+@media only screen and (max-width: 970px) {
+    #services {
+
+        margin-top: 0px;
+
+    }
+
+    .hmCont {
+        font-size: 13px;
+        padding-top: 10px;
+
+    }
+
+    .h-one {
+        font-size: 18px;
+
+    }
+
+    .item li a {
+
+        padding: 20px;
+
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: 2px 0px;
+        margin-top: 10px;
+
+    }
+
+    .logo {
+
+        height: 40px;
+
+    }
+
+    .item {
+
+        margin-right: 40px;
+
+    }
+
+    #services h1,
+    #aboutus h1,
+    #contactus h1 {
+        font-size: 25px;
+    }
+
+    .box h2,
+    #aboutus h2 {
+        font-size: 15px;
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+
+    .box img {
+
+        margin: 15px auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    .box {
+        height: 330px;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        font-size: 12px;
+    }
+
+    .container img {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .fm label{
+
+        font-size: 20px;
+        font-weight: 300;
+
+      } 
+    
+    .fm input{
+     
+        height: 17px;
+        font-size: 13px;
+        margin: 3px;
+        padding: 2px;
+      
+      }
+      .contactdiv {
+
+        padding-top: 5px;
+      }
+      .conImg {
+      
+        height: 50vw;
+      }
+
+
+}
+
+@media only screen and (max-width: 630px) {
+
+
+    .hmCont {
+        font-size: 8px;
+
+    }
+
+    .h-one {
+        font-size: 13px;
+
+    }
+
+    .btn {
+        font-size: 8px;
+        width: 60px;
+        height: 20px;
+        margin: 2px 0px;
+
+    }
+
+    .item li a {
+
+        padding: 10px;
+
+        font-size: 10px;
+    }
+
+    #services {
+
+        margin-top: -100px;
+
+    }
+
+    .container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .fm label{
+
+        font-size: 12px;
+    
+
+      } 
+    
+    .fm input{
+     
+        height: 10px;
+        font-size: 8px;
+        margin: 1px;
+        padding: 1px;
+      
+      }
+    
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .container img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .fm label{
+
+        font-size: 8px;
+       
+
+      } 
+    
+    .fm input{
+     
+        height: 8px;
+        font-size: 5px;
+        margin: 1px;
+        padding: 1px;
+      
+      }
+      .conImg {
+      
+        height: 65vw;
+      }
+
+      .btn {
+        font-size: 5px;
+        width: 40px;
+        height: 20px;
+        margin: 2px 0px;
+
+    }
+    .item li a {
+
+        padding: 3px;
+
+        font-size: 8px;
+    }
+    .logo {
+
+        height: 25px;
+
+    }
+    #services {
+
+        margin-top: -100px;
+
+    }
+
+    .hmCont {
+        font-size: 8px;
+padding-top: -19px;
+height:313px ;
+    }
+   
+
+}
